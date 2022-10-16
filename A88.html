@@ -1,0 +1,71 @@
+<html>
+<head>
+<title> Medical form </title>
+</head>
+<style>
+	form{ background-color: #A9A9A9;
+
+	}
+	.h1{
+		color: red;
+		opacity: 0.5;
+	}
+	.h1:hover{
+		opacity: 1;
+	}
+</style>
+<body>
+	<center><h1 class="h1">Patient's Information</h1></center>
+	<h1 style="font-size: 15px;">(* Mandatory)</h1>
+    <form><tr>
+    	<label id="fname">First Name</label><span>* :</span>
+    	<td><input type="text" name="firstname" id="fname" placeholder="Enter Your First Name" required> </td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<label id="lname"> Last Name</label><span>* :</span>
+    	<td><input type="text" name="lastname" id="lname" placeholder="Enter Your Last Name" required></td><br><br>
+    	<label id="fname"> Father's Name</label><span>* :</span>
+    	<input type="text" name="fathersname" id="fname" placeholder="Enter Your Father's Name" required><br><br>
+    	<label id="mname"> Mother's Name</label><span>* :</span>
+    	<input type="text" name="mothersname" id="mname" placeholder="Enter Your Mother's Name" required><br><br>
+    	<label id="reports">Upload Reports :</label>
+    	<input type="file" name="files" id="reports"> (IF HAD)<br><br>
+    	
+           <label id="dob"> D.O.B</label><span>* :</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		<input type="date" name="Date" id="dob" required></div><br>
+    		<label id="contactnumber">Contact No.</label><span>* :</span>
+    		<input type="number" name="number" id="contactnumber" placeholder="Enter Your Number"  required><br><br>
+    		<label id="email">E-Mail* :</label>
+    		<input type="mail" name="Email" id="email" placeholder="Enter Your Email " required><br><br>
+    		<label id="add">Current Address* :</label>
+    		<textarea placeholder="Enter Your Current Address" id="add" rows="5" cols="25" required></textarea> <br><br>
+    		<label id="p-address">Permanent Address* :</label>
+    		<textarea placeholder="Enter Your Permanent Address" id="p-address" rows="5" cols="25" required></textarea> <br><br>
+    		<label id="height">Height(in cms)* :</label>
+    		<input type="number" id="height" name="height" placeholder="Enter Your height" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		<label id="weight">Weight(in kg)* :</label>
+    		<input type="number" id="weight" name="weight" placeholder="Enter Your weight" required><br><br>
+    		<label id="bgroup">Blood Group* :</label></tr>
+              <select name="bgroup" id="bgroup" required>
+              <option value="Blood Group" id="Blood" selected>Blood Group</option>
+              <option value="A+ve">A+ve</option>
+              <option value="A-ve">A-ve</option>
+              <option value="B+ve">B+ve</option>
+              <option value="B-ve">B-ve</option>
+               <option value="AB+ve">AB+ve</option>
+              <option value="AB-ve">AB-ve</option>
+              <option value="O+ve">O+ve</option>
+              <option value="O-ve">O-ve</option>
+              </select>
+
+
+
+
+
+
+
+
+    </form> 
+     
+     
+     
+</body>
+</html>
